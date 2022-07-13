@@ -13,7 +13,7 @@ input[type='email'] {
   margin-bottom: 15px;
   height: 30px;
   text-indent: 10px;
-  border: 1px solid #444;
+  /* border: 1px solid #444; */
   border-radius: 5px;
   display: block;
 }
@@ -25,7 +25,28 @@ input[type='radio'] {
 
 textarea {
   margin-bottom: 15px;
-  border: 1px solid #444;
+  /* border: 1px solid #444; */
   border-radius: 5px;
   display: block;
+  padding: 8px 4px;
+}
+
+legend {
+  padding: 0 6px;
+}
+
+select {
+  padding: 8px 4px;
+  width: 100%;
+}
+
+input,
+textarea,
+fieldset,
+select {
+  border: 2px solid #000;
+}
+
+.friendly-border {
+  border: 2px solid #000;
 }
